@@ -1,0 +1,894 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image1 {
+    width: 10%;
+}
+
+
+section {
+    background-color: aliceblue;
+} 
+
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+}
+
+label.logo {
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li .list1 {
+    color: rgb(56, 54, 54);
+    font-size: 18px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+.list1.active {
+    background-color: rgb(104, 28, 19);
+    color: white;
+}
+
+.list1:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: rgb(94, 112, 110);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media all and (max-width: 700px) {
+    label.logo {
+        width: 100%;
+        padding-left: 20px;
+    }
+    nav ul li .list1 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+        top: 68px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5;
+    }
+    nav {
+        height: 72px;
+        width: 100%;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li .list1 {
+        font-size: 20px;
+    }
+    .list1:hover,
+    .list1.active {
+        background: none;
+        color: rgb(104, 28, 19);
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+/* section {
+    background-color: aliceblue;
+    height: calc(870vh - 400px);
+} */
+
+.menu2id{
+    height: 120px;
+    width: 100%;
+    border: 3px double rgb(50, 2, 2);
+    border-radius: 15px;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+}
+
+.menu2 div{
+    display: inline-block;
+    padding-left: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+h3{
+    font-style: italic;
+}
+#village1{
+    margin-left: 38px;
+}
+#jol1{
+    margin-left: 48px;
+}
+#plan1{
+    margin-left: 48px;
+}
+#chips1{
+    margin-left: 50px;
+}
+#friedr1{
+    margin-left: 10px;
+}
+
+.friedrice2{
+    width: 92%;
+    margin-left: -15px;
+}
+.villagerice{
+    width: 110%;
+}
+.Friedplantain{
+    width: 100%;
+    margin-left: 10px;
+}
+.Chips{
+    margin-left: 35px;
+    width: 90%;
+}
+#textt{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.content-1 div{
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 30px;
+   
+}
+.stage1{
+    height: 150px;
+    width: 120%;
+    border-radius: 15px;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+}
+#textt2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#textt3{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.chineseRice{
+    width: 108%;
+}
+.chips2{
+    width: 119%;
+}
+.FiestaRice{
+    margin-right: 12px;
+    width: 114%;
+}
+.FriedRice{
+    width: 100%;
+    margin-right: 18px;
+    margin-left: 20px;
+}
+.Friedplantain2{
+    width: 107%;
+    margin-right: 55px;
+}
+.jollofspag{
+    margin-right: 34px;
+    margin-left: -16px;
+}
+.smokeyjollofrice{
+    width: 121%;
+}
+.specialfriedrice2{
+    width: 90%;
+    margin-right: -20px;
+    margin-left: 50px;
+}
+.stirfriedspag{
+    margin-right: 70px;
+    margin-left: -12px;
+    width: 98%;
+}
+.villagerice2{
+    width: 115%;
+    margin-left: -0px;
+    margin-right: 40px;
+}
+.contintental{
+    margin-right: 103px;
+}
+#smokey1{
+    margin-left: 20px;
+}
+.Beef{
+    width: 107%;
+    margin-right: 94px;
+}
+
+.FriedGoatMeat{
+    margin-right: 10px;
+} 
+
+.Pomo{
+    width: 121%;
+}
+
+.curryChicken{
+    margin-right: 55px;
+    margin-left: 69px;
+    width: 100%;
+}
+
+#smokey3{
+    padding-left: 100px;
+}
+.grilledTurkey{
+    width: 99%;
+    margin-left: 49px;
+    margin-right: 20px;
+}
+
+#smoked{
+    padding-left: 84px;
+}
+
+.crispyChicken{
+    width: 94%;
+    margin-right: 25px;
+}
+
+#smokey4{
+    padding-right: 20px;
+}
+
+.croakerFish{
+    margin-right: 55px;
+    width: 106%;
+}
+
+.titusFish{
+    width: 123%;
+    margin-right: 10px;
+}
+
+#smokey5{
+    padding-left: 55px;
+
+}
+
+.pepperedSnail{
+    margin-right: 700px;
+    width: 30%;
+}
+
+#smokey6{
+    padding-right: 635px;
+}
+
+.EgusiSoup{
+    margin-right: 49px;
+    width: 102%;
+}
+
+.WhiteSoup{
+   width: 125%;
+} 
+
+.vegetableSoup{
+    margin-right: 20px;
+    width: 101%;
+}
+
+.eweduSoup{
+    margin-right: 10px;
+    width: 123%;
+}
+
+.ogbonoSoup{
+    margin-left: 8px;
+}
+
+.ohaSoup{
+    margin-right: 10px;
+    width: 117%;
+} 
+
+.ofadaSauce{
+    margin-right: 380px;
+    margin-left: 40px;
+    width: 47%;
+} 
+
+#smokey7{
+    padding-right: 260px;
+}
+
+.PoundedYam{
+    margin-right: 33px;
+    width: 100%;
+}
+
+.semo{
+    width: 126%;
+}
+
+#smokey01{
+    padding-left: 60px;
+}
+
+.wheat{
+    margin-left: 81px;
+    margin-right: -16px;
+    width: 90%;
+}
+
+.starch{
+    margin-left: 48px;
+    width: 99%;
+}
+
+.Eba{
+    width: 86%;
+    margin-right: 20px;
+}
+
+#smokey8{
+    padding-left: 130px;
+}
+
+#smokey9{
+    padding-left: 99px;
+}
+
+.Fufu{
+    margin-right: 633px;
+    width: 29%;
+}
+
+#smokey02{
+    padding-right: 640px;
+}
+
+.moimoi{
+   margin-right: -5px;
+   margin-left: 24px;
+   width: 100%;
+}
+
+.chickenSalad{
+    margin-right: 80px;
+    margin-left: 18px;
+    width: 104%;
+}
+
+
+.vegetableSalad{
+    width: 107%;
+}
+
+
+@media all and (max-width: 1500px) {
+    .friedrice2{
+        width: 99%;
+        margin-left: 4px;
+    }
+    .villagerice{
+        margin-left: 1px;
+        width: 106%;
+    }
+    .Friedplantain{
+        width: 83%;
+        margin-left: 5px;
+    }
+    .Chips{
+        margin-left: 10px;
+        width: 93%;
+    }
+    #chips1{
+        margin-left: 30px;
+    }
+    #friedr1{
+        margin-left: 55px;
+    }
+    #plan1{
+        margin-right: 44px;
+    }
+    .menu2{
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 2200px) {
+    /* section {
+        background-color: aliceblue;
+        height: calc(840vh - 400px);
+        overflow-x: hidden;
+        
+    } */
+}
+
+@media all and (max-width: 1200px) {
+    /* section {
+        background-color: aliceblue;
+        height: calc(1825vh - 400px);
+        overflow-x: hidden;
+    } */
+    .chips2{
+        margin-right: 18px;
+        width: 109%;
+    }
+    .FiestaRice{
+        width: 110%;
+    }
+    .FriedRice{
+        margin-right: 26px;
+        width: 97%;
+    }
+    .jollofrice{
+        margin-right: 3px;
+        width: 114%;
+    }
+    .Friedplantain2{
+        margin-left: 27px;
+        width: 92%;
+    }
+    .jollofspag{
+        margin-left: 12px;
+        width: 102%;
+    }
+    .CrispyYam{
+        margin-right: 7px;
+        width: 113%;
+    }
+    .smokeyjollofrice{
+        width: 116%;
+    }
+    .specialfriedrice2{
+        margin-right: 10px;
+        margin-left: 1.5em;
+        width: 95%;
+    }
+    .villagerice2{
+        margin-left: 10px;
+        width: 107%;
+    }
+    .stirfriedspag{
+        margin-left: 24px;
+        width: 97%;
+    }
+    .Beef{
+        margin-left: 30px;
+        width: 96%;
+    }
+    .FriedGoatMeat{
+        margin-right: 10px;
+        width: 123%;
+    }
+    .curryChicken{
+        margin-left: 28px;
+        width: 97%;
+    }
+    #smokey3{
+        margin-right: 16px;
+    }
+    .grilledTurkey{
+        margin-right: 100px;
+        margin-left: 28px;
+        width: 97%;
+    }
+    #smoked{
+        margin-right: 29px;
+    }
+    .crispyChicken{
+        margin-left: 30px;
+        width: 97%;
+    }
+    #smokey4{
+        margin-left: 80px;
+    }
+    .croakerFish{
+        margin-left: 27px;
+        width: 98%;
+    }
+    .titusFish{
+        margin-right: 28px;
+        width: 118%;
+    }
+    .pepperedSnail{
+        margin-left: 20px;
+        width: 34%;
+    }
+    #smokey6{
+        margin-left: 100px;
+    }
+    .EgusiSoup{
+        margin-left: 20px;
+        width: 104%;
+    }
+    .bangaSoup{
+        margin-right: 23px;
+    }
+    .WhiteSoup{
+        margin-right: 49px;
+        width: 119%;
+    }
+    .vegetableSoup{
+        margin-left: 10px;
+        width: 109%;
+    }
+    .eweduSoup{
+        margin-right: 40px;
+        width: 118%;
+    }
+    .ogbonoSoup{
+        margin-right: 59px;
+        width: 112%;
+    }
+    .ohaSoup{
+        margin-right: 40px;
+        width: 118%;
+    }
+    .ofadaSauce{
+        margin-right: 500px;
+        margin-left: 14px;
+        width: 58%;
+    }
+    #smokey7{
+        margin-left: 80px;
+    }
+    .PoundedYam{
+        width: 120%;
+    }
+    .Amala{
+        margin-right: 40px;
+        width: 118%;
+    }
+    .semo{
+        margin-right: 70px;
+        width: 118%;
+    }
+    .wheat{
+        margin-right: 100px;
+        margin-left: 8px;
+        width: 113%;
+    }
+    #smokey8{
+        margin-right: 70px;
+    }
+    .starch{
+        margin-right: 200px;
+        margin-left: 9px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    clear: both;
+    padding-bottom: 0;
+    width: 100%;
+    height: 80vh;
+}
+.footer-content {
+    display: flex;
+}
+
+.image01 {
+    width: 20%;
+    
+}
+
+
+#para1 {
+    padding-bottom: 20px;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+#para2 {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+#input1 {
+    line-height: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 2px 10px;
+    font-size: 20px;
+}
+
+#input2 {
+    line-height: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 130px;
+}
+
+.btn-1 {
+    color: aliceblue;
+    background-color: rgb(104, 28, 19);
+    padding: 3px 25px;
+    cursor: pointer;
+    border: 1px solid rgb(104, 28, 19);
+    border-radius: 3px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#para3 {
+    letter-spacing: 2px;
+    
+}
+
+.footer1 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.icontext {
+    display: flex;
+    padding-top: 17px;
+    line-height: 35px;
+}
+
+#icons {
+    padding-top: 9px;
+    padding-left: 8px;
+    background-color: white;
+    height: 42px;
+    width: 35px;
+    margin: 0 8px;
+    border-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: transform 0.5s;
+}
+
+.icons2,
+#icons {
+    font-size: x-large;
+    transition: transform 0.5s;
+}
+
+.icons2:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), inset -0.5px -0.5px 0px rgba(255, 255, 255, 1);
+    transform: translateY(2px);
+}
+
+.icons2:hover i {
+    transform: scale(0.90);
+}
+
+a .fa-facebook-square {
+    color: #3b5998;
+}
+
+a .fa-twitter-square {
+    color: #00acee;
+}
+
+a .fa-instagram {
+    color: #f14843;
+}
+
+a .fa-whatsapp {
+    color: #4fce5d;
+}
+
+a .fa-linkedin {
+    color: #0e76a8;
+}
+
+.footer2 {
+    display: flex; 
+    margin: 50px;
+    padding-top: 49px;
+    padding-left: 100px;
+    
+
+}
+
+.guides {
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+
+    
+}
+
+.info {
+    padding-left: 70px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.personal {
+    padding-left: 70px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.personalinfo{
+    display: flex;
+}
+
+
+.footer2 div a {
+    color: black;
+}
+.footer2 .guides a {
+    color: rgb(105, 2, 2);
+}
+#end{
+    text-align: center;
+    
+}
+#Hr-4{
+    opacity: 0.5;
+}
+.pHr{
+    width: 100%;
+    height: 5vh;
+}
+
+@media all and (max-width: 1000px) {
+    footer{
+        background-color: white;
+        background-size: cover;
+        width: 100%;
+        height: 130vh;
+    }
+    .footer-content {
+        display: block;
+        text-align: left;
+        
+    }
+    #icons {
+        padding-top: 25px;
+        padding-left: 10px;
+        height: 77px;
+        width: 40px;
+        margin: 0 10px;
+        
+    }
+    .icons2:hover {
+        box-shadow: inset 0px 0px 0px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), inset -0.5px -0.5px 0px rgba(255, 255, 255, 1);
+        transform: translateY(2px);
+    }
+    .icontext {
+        display: block;
+        padding-top: 17px;
+        padding-left: 20px;
+        
+    }
+    .footer2{
+        padding-left: 100px;
+        margin-top: -40px;
+    }
+    .personalinfo{
+        display: flex;
+    }
+
+    .footer1-small{
+        padding-left: 100px;
+        align-content: center;
+    }
+    .image01{
+        width: 20%;
+        padding-right: 80px;
+    }
+  
+    #input1 {
+        width: 250px;
+        padding: 2px 10px;
+        font-size: 20px;
+    }
+    #para3 {
+        padding-bottom: -100px;
+        padding-left: 20px;
+    }
+    #end{
+        padding-top: 10px;
+    }
+   
+}
+
+@media all and (max-width: 700px) {
+    footer{
+        background-color: white;
+        width: 100%;
+        height: 135vh;
+    }
+    .footer-content {
+        display: block;
+    }
+    .footer2{
+        padding-left: 10px;
+        margin-top: -40px;
+        
+    }
+    .personalinfo{
+        display: flex;
+        padding-left: -10px;
+        
+    }
+    .footer1-small{
+        padding-left: 40px;
+        align-content: center;
+    }
+   
+    #para3 {
+        padding-bottom: -100px;
+        padding-left: 60px;
+        line-height: 20px;
+    }
+    .footer2 div a {
+        font-size: 15px;
+    }
+    .image01{
+        width: 45%;
+        padding-right: 100px;
+    }
+    
+}
